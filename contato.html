@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio - contato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="contato.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+</head>
+
+<body>
+    <div class="box">
+        <section class="content">
+            <div class="contato">
+                <h3>Me contacte! </h3>
+                <form class="form" method="post" action="email.php">
+                    <input class="field" name="name" placeholder="Nome" required>
+                    <input class="field" type="email" value="" name="email" placeholder="E-mail" required>
+                    <textarea class="field" name="message" placeholder="Digite sua mensagem aqui." required></textarea>
+                    <!--<div class="g-recaptcha" data-sitekey="6Ldz24sUAAAAANRptfadr7IbnZsqGASghgM-Bodysu"></div>-->
+                    <input type="submit" name="submit" value="Enviar" class="css3button">
+                   
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
